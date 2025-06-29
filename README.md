@@ -1,8 +1,10 @@
 # Language-Translator-project
-**English-French Sequence-to-Sequence Translator**
+**English-French Sequence-to-Sequence Translator**:
+
 This project implements a basic character-level Sequence-to-Sequence (Seq2Seq) model using TensorFlow and Keras to translate short English sentences into French. The model is trained on a dataset of English-French sentence pairs and demonstrates the fundamental principles of neural machine translation with Long Short-Term Memory (LSTM) networks.
 
-**Features**
+**Features**:
+
 Character-level Translation: Translates text character by character.
 
 Seq2Seq Model: Utilizes an Encoder-Decoder architecture with LSTM layers.
@@ -13,7 +15,8 @@ Inference Mode: Supports generating translations for new input sentences after t
 
 Model Persistence: Saves the trained model for later use.
 
-**Prerequisites**
+**Prerequisites**:
+
 Before running this project, ensure you have the following installed:
 
 Python 3.x
@@ -42,7 +45,8 @@ Set up the inference (prediction) models.
 
 Demonstrate translation by decoding the first 100 input sentences from the training set.
 
-**Model Architecture**
+**Model Architecture**:
+
 The translation system is built upon a standard Sequence-to-Sequence architecture consisting of:
 
 Encoder: An LSTM layer that processes the input (English) sequence and compresses its information into a fixed-size "context vector" (represented by its final hidden and cell states).
@@ -51,7 +55,8 @@ Decoder: Another LSTM layer that takes the context vector from the encoder as it
 
 Dense Layer with Softmax: A final dense layer with a softmax activation function is used on the decoder's output to predict the probability distribution over the target vocabulary for each time step.
 
-**Customization**
+**Customization**:
+
 You can modify the following parameters at the beginning of the seq2seq_translation.py script to experiment with the model's behavior:
 
 training_batch_size: Number of samples per gradient update.
