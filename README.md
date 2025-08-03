@@ -63,3 +63,12 @@ Translated: bonjour
 
 Source: how are you?
 Translated: comment ça va ?
+
+
+## Acknowledgements
+
+This project is based on the official Keras example:
+- [Character-level Seq2Seq Translation with LSTM](https://keras.io/examples/nlp/lstm_seq2seq/)
+
+Adaptations and modifications were made for learning and experimentation purposes.
+
